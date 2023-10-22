@@ -1,0 +1,15 @@
+# Git
+.git
+.gitignore
+
+# Docker
+.docker
+
+# Python
+FastApiCrud/__pycache__/
+FastApiCrud/*/__pycache__/
+FastApiCrud/*/*/__pycache__/
+FastApiCrud/*/*/*/__pycache__/
+.env/
+.venv/
+venv/
