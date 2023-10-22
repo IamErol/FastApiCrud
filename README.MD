@@ -6,7 +6,6 @@
 
     ```bash
     git clone <repository_url>
-    cd HQtest
     ```
 
 2. **Build and run the Docker container using Docker Compose:**
