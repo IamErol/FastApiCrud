@@ -1,17 +1,3 @@
-#version: "3.10.13"
-#
-#services:
-#  main_app:
-#    build:
-#      context: .
-#      args:
-#        - DEV=false
-#    ports:
-#      - "8000:8000"
-#    volumes:
-#      - ./main_app:/main_app
-#    command: >
-#      sh -c "uvicorn main_app.main:app --reload"
 version: "3"
 services:
   api:
