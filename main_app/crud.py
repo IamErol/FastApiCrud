@@ -28,7 +28,9 @@ async def get_user_by_email(email: str):
 
 
 async def get_users(skip: int = 0, limit: int = 100):
-    """Get all users."""
+    """
+    Get all users.
+    """
     query = ('SELECT * FROM users LIMIT :limit OFFSET :skip')
     values = {'limit': limit, "skip": skip}
     results = await database.fetch_all(query, values)
